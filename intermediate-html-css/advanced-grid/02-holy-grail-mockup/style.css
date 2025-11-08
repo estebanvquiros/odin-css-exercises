@@ -8,6 +8,9 @@ li {
 }
 
 .container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 4px;
   text-align: center;
 }
 
